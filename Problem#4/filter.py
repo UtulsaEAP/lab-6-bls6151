@@ -16,10 +16,9 @@ def process_and_print(input_string):
     # Print sorted integers
     j = 0
     printed = ""
-    while j < len(input_data):
+    while j < len(input_data) :
         printed += (str(input_data[j]) + " ")
         j += 1
-    printed += "\n"
     print(printed)
 
 if __name__ == "__main__":
@@ -27,4 +26,4 @@ if __name__ == "__main__":
     user_input = input("Enter a space-separated string of numbers: ")
 
     # Call the function to process and print the result
-    process_and_print(user_input)
+    (process_and_print(user_input))

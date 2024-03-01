@@ -6,7 +6,7 @@ def filter_and_print_range(input_list, min_val, max_val):
     while i < len(input_list):
         if int(input_list[i]) >= min_val:
             if int(input_list[i]) <= max_val:
-                nums += input_list[i] + ","
+                nums += str(input_list[i]) + ","
         i += 1
     print(nums)
 if __name__ == '__main__':
