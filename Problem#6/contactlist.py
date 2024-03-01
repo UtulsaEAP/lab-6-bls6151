@@ -16,7 +16,8 @@ def process_user_contacts(user_input):
     while i < len(list):
         a = list[i].split(',')
         if a[0] == contact_name:
-            user_contacts = a[1]
+            if len(a) > 1:
+                user_contacts = a[1]
         i += 1
     print(user_contacts)
    
@@ -25,4 +26,4 @@ if __name__ == '__main__':
     user_input = input("Enter word pairs (name, phone number): ")
 
     # Call the function to process user contacts
-    process_user_contacts(user_input)
+    (process_user_contacts(user_input))
