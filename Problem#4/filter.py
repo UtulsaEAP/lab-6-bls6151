@@ -16,9 +16,10 @@ def process_and_print(input_string):
     # Print sorted integers
     j = 0
     printed = ""
-    while j < len(input_data):
+    while j < len(input_data) -1:
         printed += (str(input_data[j]) + " ")
         j += 1
+    printed += (str(input_data[j]))
     print(printed)
 
 if __name__ == "__main__":
