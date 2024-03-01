@@ -1,3 +1,4 @@
+#Name: Braden Stanfield  Lab: Fri 3
 def filter_and_print_range(input_list, min_val, max_val):
     #write your code here
 

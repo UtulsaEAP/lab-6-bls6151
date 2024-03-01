@@ -1,3 +1,4 @@
+#Name: Braden Stanfield  Lab: Fri 3
 def in_order(nums):
     # Type your code here.
     

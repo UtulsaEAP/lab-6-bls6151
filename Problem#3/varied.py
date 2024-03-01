@@ -1,3 +1,4 @@
+#Name: Braden Stanfield  Lab: Fri 3
 def process_input(input_string):
       # Split into separate strings
 
