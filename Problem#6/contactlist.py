@@ -15,14 +15,14 @@ def process_user_contacts(user_input):
                 num = a[1]
                 i = len(list)
         i += 1
-        if num == "Contact not found.":
-            while i < len(list):
-                a = list[i].split()
-                if a[0] == Contact_name:
-                    if len(a) > 1:
-                        num = a[1]
-                        i = len(list)
-                i += 1
+    if num == "Contact not found.":
+        while i < len(list):
+            a = list[i].split()
+            if a[0] == Contact_name:
+                if len(a) > 1:
+                    num = a[1]
+                    i = len(list)
+            i += 1
     print(num)
    
 if __name__ == '__main__':
