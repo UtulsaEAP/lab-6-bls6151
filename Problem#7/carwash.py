@@ -3,7 +3,7 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     services = {'Air freshener': 1, 'Rain repellent': 2, 'Tire shine': 2, 'Wax': 3, 'Vacuum': 5}
     base_wash = 10
     total = 10
-    output = "ZyCar Wash \nBase car wash - $10"
+    output = "ZyCar Wash\nBase car wash - $10"
    #type your code here 
     if service_choice1 == "Air freshener":
         output += "\nAir freshener - $1"
