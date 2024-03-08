@@ -11,15 +11,15 @@ def process_and_print(input_string):
         i += 1
 
     # Sort integers in reverse order
-    input_data.sort()
-    input_data.reverse()
+    input_data.sort(reverse=True)
+    #input_data.reverse()
     # Print sorted integers
     j = 0
     printed = ""
     while j < len(input_data) :
         printed += (str(input_data[j]) + " ")
         j += 1
-    print(printed)
+    print(printed[:-1])
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
