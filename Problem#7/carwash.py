@@ -20,8 +20,7 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     elif service_choice1 == "Vaccum":
         output += "\nVaccum - $5"
         total += 3
-    else:
-        output += "\n-----"
+    
     if service_choice2 == "Air freshener":
         output += "\nAir freshener - $1"
         total += 1
@@ -37,8 +36,7 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     elif service_choice2 == "Vaccum":
         output += "\nVaccum - $5"
         total += 3
-    else:
-        output += "\n-----"
+    
     
     
     output += ("\n-----\nTotal price: $" + str(total))
