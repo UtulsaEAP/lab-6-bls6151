@@ -19,7 +19,7 @@ def process_and_print(input_string):
     while j < len(input_data) :
         printed += (str(input_data[j]) + " ")
         j += 1
-    print(input_data.sort)
+    print(printed)
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
