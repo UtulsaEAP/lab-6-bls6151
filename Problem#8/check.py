@@ -1,6 +1,7 @@
 #Name: Braden Stanfield  Lab: Fri 3
 def in_order(nums):
     # Type your code here.
+    
     return(True)
 if __name__ == '__main__':
     # Test out-of-order example
