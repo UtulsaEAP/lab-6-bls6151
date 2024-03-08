@@ -16,6 +16,7 @@ def process_user_contacts(user_input):
                 i = len(list)
         i += 1
     if num == "Contact not found.":
+        i = 0
         while i < len(list):
             a = list[i]
             if a == Contact_name:
