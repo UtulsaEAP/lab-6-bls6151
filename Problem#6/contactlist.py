@@ -11,8 +11,9 @@ def process_user_contacts(user_input):
     while i < len(list):
         a = list[i].split(',')
         if a[0] == Contact_name:
-            num = a[1]
-            i = len(list)
+            if len(a) > 1:
+                num = a[1]
+                i = len(list)
         i += 1
     print(num)
    
