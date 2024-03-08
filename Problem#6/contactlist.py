@@ -17,10 +17,10 @@ def process_user_contacts(user_input):
         i += 1
     if num == "Contact not found.":
         while i < len(list):
-            a = list[i].split()
-            if a[0] == Contact_name:
-                if len(a) > 1:
-                    num = a[1]
+            a = list[i]
+            if a == Contact_name:
+                if len(list) > 1:
+                    num = list[i + 1]
                     i = len(list)
             i += 1
     print(num)
