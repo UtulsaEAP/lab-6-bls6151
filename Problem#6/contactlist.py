@@ -6,7 +6,7 @@ def process_user_contacts(user_input):
     # Put word pairs into a dictionary
     
     # Get contact name from input, output contact's phone number
-    num = "Contact nor found."
+    num = "Contact not found."
     Contact_name = input("Enter the contact name: ")
     while i < len(list):
         a = list[i].split(',')
