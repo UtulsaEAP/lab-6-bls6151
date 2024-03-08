@@ -11,7 +11,7 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     elif service_choice1 == "Air freshener":
         output += "Air freshener - 1"
         total += 1
-    elif
+    
     print(services['Air freshener'])
     output += ("-----\nTotal price:" + total)
     print(output)
